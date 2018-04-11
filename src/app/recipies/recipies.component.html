@@ -1,0 +1,11 @@
+<h2>My Recipies</h2>
+<div class="recipies ">
+  <div *ngFor="let recipe of recipies">
+      <ul>
+      	<li><span class="badge">{{recipe.hoeveelheden}}</span></li>
+      </ul>
+      <ul>
+      	<li><span class="badge">{{recipe.ingredienten}}</span></li>
+      </ul>
+  </div>
+</div>
