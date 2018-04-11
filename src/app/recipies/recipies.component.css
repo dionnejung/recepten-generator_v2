@@ -1,0 +1,19 @@
+@import '../../styles/font-awesome/css/font-awesome.min.css';
+@import '../../styles/bootstrap-4.1.0-dist/css/bootstrap.min.css';
+
+.recipe_name {
+
+}
+
+.recipe_img {
+	width: 100%;
+}
+
+.card {
+	border: none;
+	margin: 0 0 20px 0;
+}
+
+.card-body {
+	padding-left: 0;
+}

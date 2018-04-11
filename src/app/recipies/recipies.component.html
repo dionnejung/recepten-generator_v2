@@ -1,18 +1,45 @@
-<h2>My Recipies</h2>
-<div class="recipies ">
-  <div *ngFor="let recipe of recipies" >
-      <ul>
-      	<li>
-	      	<div>{{recipe.hoeveelheden[0]}} {{recipe.ingredienten[0]}}</div>
-	      	<div>{{recipe.hoeveelheden[1]}} {{recipe.ingredienten[1]}}</div>
-	      	<div>{{recipe.hoeveelheden[2]}} {{recipe.ingredienten[2]}}</div>
-	      	<div>{{recipe.hoeveelheden[3]}} {{recipe.ingredienten[3]}}</div>
-	      	<div>{{recipe.hoeveelheden[4]}} {{recipe.ingredienten[4]}}</div>
-	      	<div>{{recipe.hoeveelheden[5]}} {{recipe.ingredienten[5]}}</div>
-	      	<div>{{recipe.hoeveelheden[6]}} {{recipe.ingredienten[6]}}</div>
-	      	<div>{{recipe.hoeveelheden[7]}} {{recipe.ingredienten[7]}}</div>
-      	</li>
-      </ul>
-  </div>
+<div class="container">
+	<h2>My Recipies</h2>
+	<div class="recipies row">
+	    <div *ngFor="let recipe of recipies" class="card col-md-4" >
+		  	<img class="card-img-top" src="{{recipe.receptafbeelding}}">
+		  	<div class="card-body">
+			    <h5 class="card-title">{{recipe.name}}</h5>
+			    <p class="card-text">
+				    <span>
+				    	<i class="fas fa-signal"></i>
+				    	{{recipe.moeilijkheidsgraad}}
+				    </span><br>
+			 		<span>
+			 			<i class="far fa-clock"></i>
+			 			{{recipe.bereidingstijd}}
+			 		</span>
+			    </p>
+
+		  	</div>
+		</div>
+	</div>
 </div>
+
+<!-- <div>{{recipe.hoeveelheden[0]}} {{recipe.ingredienten[0]}}</div> -->
+
+	  <!--   <div *ngFor="let recipe of recipies" class="card col-md-4">
+	    	<a href="http://dionnejung.nl/">
+		        <div class="view overlay">
+		            <img class="card-img-top" src="{{recipe.receptafbeelding}}">
+		            <a href="#!">
+		                <div class="mask rgba-white-slight"></div>
+		            </a>
+		        </div>
+
+		        <div class="card-body">
+
+		            <h4 class="card-title">{{recipe.name}}</h4>
+
+		            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+		        </div>
+		    </a>
+	  	</div> -->
+		
 

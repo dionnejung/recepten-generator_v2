@@ -1,6 +1,9 @@
 import { Recipe } from './recipe';
 
 const Bananen_pancakes : Recipe = {
+	name : 'Bananen Pannenkoekjes',
+	id: 1,
+	receptafbeelding: 'https://static.ah.nl/static/recepten/img_057247_445x297_JPG.jpg',
 	ingredienten : [
 		'Banaan',
 		'Eieren',
@@ -12,7 +15,7 @@ const Bananen_pancakes : Recipe = {
 		'2 eetlepels'
 	], 
 	moeilijkheidsgraad :
-		25
+		1
 	,
 	bereidingstijd:
 		'15 minuten'
@@ -28,6 +31,9 @@ const Bananen_pancakes : Recipe = {
 };
 
 const Pasta_tonno : Recipe = {
+	name : 'Pasta Tonno',
+	id: 2,
+	receptafbeelding: 'https://static.ah.nl/static/recepten/img_057247_445x297_JPG.jpg',
 	ingredienten: [
 		'Penne pasta',
 		'groene pesto',
@@ -41,7 +47,7 @@ const Pasta_tonno : Recipe = {
 		'1'
 	], 
 	moeilijkheidsgraad:
-		25
+		1
 	,
 	bereidingstijd:
 		'15 minuten'
@@ -57,6 +63,9 @@ const Pasta_tonno : Recipe = {
 }
 
 const Pastaschelpen : Recipe = {
+	name : 'Pastaschelpen met artisjokharten',
+	id: 3,
+	receptafbeelding: 'https://static.ah.nl/static/recepten/img_057247_445x297_JPG.jpg',
 	ingredienten: [
 		'pastaschelpen',
 		'ricotta',
@@ -72,7 +81,7 @@ const Pastaschelpen : Recipe = {
 		'2 eetlepels'
 	], 
 	moeilijkheidsgraad:
-		50
+		2
 	,
 	bereidingstijd:
 		'30 minuten'
@@ -88,6 +97,9 @@ const Pastaschelpen : Recipe = {
 }
 
 const Pavlova : Recipe = {
+	name : 'Pavlova',
+	id: 4,
+	receptafbeelding: 'https://static.ah.nl/static/recepten/img_057247_445x297_JPG.jpg',
 	ingredienten: [
 		'eiwitten',
 		'citroen',
@@ -101,7 +113,7 @@ const Pavlova : Recipe = {
 		'1 theelepel'
 	], 
 	moeilijkheidsgraad:
-		50
+		2
 	,
 	bereidingstijd:
 		'100 minuten'
@@ -117,6 +129,9 @@ const Pavlova : Recipe = {
 }
 
 const Oreo_milkshake : Recipe = {
+	name : 'Oreo milkshake met banaan',
+	id: 5,
+	receptafbeelding: 'https://static.ah.nl/static/recepten/img_057247_445x297_JPG.jpg',
 	ingredienten: [
 		'vanille ijs',
 		'melk',
@@ -132,7 +147,7 @@ const Oreo_milkshake : Recipe = {
 		'1 toef'
 	], 
 	moeilijkheidsgraad:
-		25
+		1
 	,
 	bereidingstijd:
 		'5 minuten'
@@ -148,6 +163,9 @@ const Oreo_milkshake : Recipe = {
 }
 
 const Spanakopita_plaattaart : Recipe = {
+	name : 'Spanakopita plaattaart',
+	id: 6,
+	receptafbeelding: 'https://static.ah.nl/static/recepten/img_057247_445x297_JPG.jpg',
 	ingredienten: [
 		'ui',
 		'spinazie',
@@ -163,7 +181,7 @@ const Spanakopita_plaattaart : Recipe = {
 		'1 rol'
 	], 
 	moeilijkheidsgraad:
-		25
+		1
 	,
 	bereidingstijd:
 		'30 minuten'
@@ -179,6 +197,9 @@ const Spanakopita_plaattaart : Recipe = {
 }
 
 const Pasta_worstjes : Recipe = {
+	name : 'Pasta met wortjes',
+	id: 7,
+	receptafbeelding: 'https://static.ah.nl/static/recepten/img_057247_445x297_JPG.jpg',
 	ingredienten: [
 		'merguez worstjes',
 		'broccoli',
@@ -194,7 +215,7 @@ const Pasta_worstjes : Recipe = {
 		'1'
 	], 
 	moeilijkheidsgraad:
-		50
+		2
 	,
 	bereidingstijd:
 		'20 minuten'
@@ -210,6 +231,9 @@ const Pasta_worstjes : Recipe = {
 }
 
 const Caesar_sandwich : Recipe = {
+	name : 'Caesar sandwich',
+	id: 8,
+	receptafbeelding: 'https://static.ah.nl/static/recepten/img_057247_445x297_JPG.jpg',
 	ingredienten: [
 		'gerookte kip',
 		'ontbijtspek',
@@ -227,7 +251,7 @@ const Caesar_sandwich : Recipe = {
 		'1 eetlepel'
 	], 
 	moeilijkheidsgraad:
-		50
+		2
 	,
 	bereidingstijd:
 		'10 minuten'
@@ -243,6 +267,9 @@ const Caesar_sandwich : Recipe = {
 }
 
 const Geglazeerde_zalm : Recipe = {
+	name : 'Geglazeerde zalm met asperges',
+	id: 9,
+	receptafbeelding: 'https://static.ah.nl/static/recepten/img_057247_445x297_JPG.jpg',
 	ingredienten: [
 		'honing',
 		'gember',
@@ -262,7 +289,7 @@ const Geglazeerde_zalm : Recipe = {
 		'350 gram'
 	], 
 	moeilijkheidsgraad:
-		50
+		2
 	,
 	bereidingstijd:
 		'30 minuten'
@@ -278,6 +305,9 @@ const Geglazeerde_zalm : Recipe = {
 }
 
 const Havermout : Recipe = {
+	name : 'Havermout met amandelen en kokos',
+	id: 10,
+	receptafbeelding: 'https://static.ah.nl/static/recepten/img_057247_445x297_JPG.jpg',
 	ingredienten: [
 		'havermout',
 		'melk ',
@@ -293,7 +323,7 @@ const Havermout : Recipe = {
 		'1 eetlepel'
 	], 
 	moeilijkheidsgraad:
-		25
+		1
 	,
 	bereidingstijd:
 		'5 minuten'
@@ -309,6 +339,9 @@ const Havermout : Recipe = {
 }
 
 const Broodsalade : Recipe = {
+	name : 'Broodsalade',
+	id: 11,
+	receptafbeelding: 'https://static.ah.nl/static/recepten/img_057247_445x297_JPG.jpg',
 	ingredienten: [
 		'brood',
 		'tomaten ',
@@ -324,7 +357,7 @@ const Broodsalade : Recipe = {
 		'1'
 	], 
 	moeilijkheidsgraad:
-		25
+		1
 	,
 	bereidingstijd:
 		'20 minuten'
@@ -340,6 +373,9 @@ const Broodsalade : Recipe = {
 }
 
 const Kip_teriyaki : Recipe = {
+	name : 'Kip teriyaki met rijst',
+	id: 12,
+	receptafbeelding: 'https://static.ah.nl/static/recepten/img_057247_445x297_JPG.jpg',
 	ingredienten: [
 		'broccoli',
 		'rijst ',
@@ -355,7 +391,7 @@ const Kip_teriyaki : Recipe = {
 		'1 portie'
 	], 
 	moeilijkheidsgraad:
-		50
+		2
 	,
 	bereidingstijd:
 		'25 minuten'
@@ -371,6 +407,9 @@ const Kip_teriyaki : Recipe = {
 }
 
 const Eggwraps : Recipe = {
+	name : 'Eggwraps',
+	id: 13,
+	receptafbeelding: 'https://static.ah.nl/static/recepten/img_057247_445x297_JPG.jpg',
 	ingredienten: [
 		'ei',
 		'melk ',
@@ -390,7 +429,7 @@ const Eggwraps : Recipe = {
 		'3 plakjes'
 	], 
 	moeilijkheidsgraad:
-		50
+		2
 	,
 	bereidingstijd:
 		'15 minuten'
@@ -406,6 +445,9 @@ const Eggwraps : Recipe = {
 }
 
 const Quesedillas : Recipe = {
+	name : 'Quesadillas',
+	id: 14,
+	receptafbeelding: 'https://static.ah.nl/static/recepten/img_057247_445x297_JPG.jpg',
 	ingredienten: [
 		'wraps',
 		'geraspte kaas ',
@@ -423,7 +465,7 @@ const Quesedillas : Recipe = {
 		''
 	], 
 	moeilijkheidsgraad:
-		25
+		2
 	,
 	bereidingstijd:
 		'15 minuten'
@@ -439,6 +481,9 @@ const Quesedillas : Recipe = {
 }
 
 const Pita_kip : Recipe = {
+	name : 'Pita met kip en gegrilde groenten',
+	id: 15,
+	receptafbeelding: 'https://static.ah.nl/static/recepten/img_057247_445x297_JPG.jpg',
 	ingredienten: [
 		'pita\'s',
 		'kippendijfilet ',
@@ -454,7 +499,7 @@ const Pita_kip : Recipe = {
 		'1 bakje'
 	], 
 	moeilijkheidsgraad:
-		25
+		1
 	,
 	bereidingstijd:
 		'30 minuten'
@@ -470,6 +515,9 @@ const Pita_kip : Recipe = {
 }
 
 const Griekse_couscous : Recipe = {
+	name : 'Griekse couscous salade',
+	id: 16,
+	receptafbeelding: 'https://static.ah.nl/static/recepten/img_057247_445x297_JPG.jpg',
 	ingredienten: [
 		'feta',
 		'tzatziki ',
@@ -485,7 +533,7 @@ const Griekse_couscous : Recipe = {
 		'2 handjes'
 	], 
 	moeilijkheidsgraad:
-		25
+		1
 	,
 	bereidingstijd:
 		'20 minuten'

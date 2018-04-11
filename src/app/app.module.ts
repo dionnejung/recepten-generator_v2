@@ -10,12 +10,14 @@ import { RecipiesComponent }    from './recipies/recipies.component';
 import { RecipeService }        from './recipe.service';
 
 import { AppRoutingModule }     from './app-routing.module';
+import { Angular2FontawesomeModule } from 'angular2-fontawesome/angular2-fontawesome';
 
 @NgModule({
   imports: [
     BrowserModule,
     FormsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    Angular2FontawesomeModule
   ],
   declarations: [
     AppComponent,
